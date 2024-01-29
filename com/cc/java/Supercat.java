@@ -4,7 +4,7 @@ public class Supercat
 {
     private String name;
     private String furColor;
-    private int age;
+    public int age;
 
 
     public Supercat(String name, String furColor, int age)
@@ -14,7 +14,7 @@ public class Supercat
         this.age = age;
     }
 
-    
+
     public String getStringAttributes(String op) {
         switch (op) {
           case "#name":

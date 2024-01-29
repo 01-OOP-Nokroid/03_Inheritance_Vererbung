@@ -1,13 +1,14 @@
 package com.cc.java;
 
-public class Cat
+public class Cat extends Supercat // extends --> Erweitert Supercat
 {
+
 
   private int counter;
 
   public Cat(String name, String furColor, int age)
   {
-    
+    super(name, furColor, age); // Leitet die übermittelden Daten weiter
   }
 
   public String getAge()
